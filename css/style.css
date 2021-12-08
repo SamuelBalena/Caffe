@@ -1,0 +1,305 @@
+/* Style */
+
+* {
+    font-family: "Poppins","Sans-serif";
+}
+
+main {
+    background: url('../img/coffebanner.svg') no-repeat center center;
+	background-size: cover;
+	padding: 300px 0;
+}
+
+a {
+    letter-spacing: 1.5px;
+}
+
+nav a:hover {
+    color: #e65100;
+}
+
+h2 {
+    font-family: "Playfair";
+    font-weight: 600;
+}
+
+h4 {
+    font-family: "Playfair";
+    font-weight: 600;
+}
+
+h5 {
+    font-weight: 200;
+}
+
+main a {
+    margin-top: 30px;
+}
+
+.card-direction {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Special-Coffe */
+
+.special-coffe {
+    padding-top: 50px;
+}
+
+.special-coffe img {
+    height: 150px;
+    width: 150px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.special-coffe .card-content span {
+    font-size: 24px;
+    font-family: "Playfair";
+    font-weight: 700;
+}
+
+.special-coffe h2::after {
+    content: '';
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #e65100;
+	margin: 20px auto;
+}
+
+.special-coffe .card-content span::after {
+    content: '';
+	display: block;
+	width: 20px;
+	height: 2px;
+	background: #e65100;
+    margin: 5px auto;
+}
+
+.special-coffe h2 {
+    font-family: "Playfair";
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* About */
+
+.about {
+    padding-top: 50px;
+}
+
+.about img {
+    border-radius: 5%;
+}
+
+.about h2::after {
+    content: '';
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #e65100;
+	margin: 20px auto;
+}
+
+.about-position {
+    display: flex;
+    align-items: center;
+}
+
+.about h2 {
+    font-family: "Playfair";
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* Gallery */
+
+.gallery {
+    padding-top: 50px;
+}
+
+.gallery h2::after {
+    content: '';
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #e65100;
+	margin: 20px auto;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+.gallery h2 {
+    font-family: "Playfair";
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* Menu */
+
+.menu {
+    padding-top: 50px;
+}
+
+.menu h2::after {
+    content: '';
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #e65100;
+	margin: 20px auto;
+}
+
+.menu .card {
+    height: 200px;
+    padding: 40px;
+}
+
+.menu-row {
+    display: flex;
+}
+
+.menu .card img {
+    width: 100px;
+    height: 100px;
+}
+
+.menu .card span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.menu .card span::after {
+    content: '';
+	display: block;
+	width: 20px;
+	height: 2px;
+	background: #e65100;
+    margin-bottom: 10px;
+}
+
+.menu img {
+    width: 100px;
+    height: 100px;
+}
+
+.menu h2 {
+    font-family: "Playfair";
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* Menu-Responsive */
+
+.menu-responsive img{
+    width: 150px;
+    height: 150px;
+}
+
+/* Contact */
+
+.contact {
+    padding-top: 50px;
+}
+
+.contact h2::after {
+    content: '';
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #e65100;
+	margin: 20px auto;
+}
+
+.content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    width: 100%;
+    max-width: 500px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.btn-form {
+    display: block;
+    color: #fff;
+    background-color: #C53F3F;
+    text-decoration: none;
+	text-align: center;
+	font-size: 1.125em;
+	font-weight: bold;
+	display: block;
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.title  h4 {
+    font-size: 14px;
+}
+
+.contact h2 {
+    font-family: "Playfair";
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+}
+
+/* PreLoader */
+
+#preloader {
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive */
+
+@media (max-width: 739px) {
+    .about-position {
+        flex-direction: column;
+    }
+
+    .contact {
+        padding-top: 0;
+    }
+
+    main {
+        padding: 200px 0;
+    }
+}
